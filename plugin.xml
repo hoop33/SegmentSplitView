@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Grailbox"
+            id="SegmentSplitView">
+      </category>
+      <view
+            name="Segment Split View"
+            icon="icons/x12.png"
+            category="SegmentSplitView"
+            class="com.grailbox.eclipse.segmentsplitview.views.SegmentSplitView"
+            id="com.grailbox.eclipse.segmentsplitview.views.SegmentSplitView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               ratio="0.5"
+               relative="org.eclipse.ui.views.TaskList"
+               relationship="right"
+               id="com.grailbox.eclipse.segmentsplitview.views.SegmentSplitView">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+
+</plugin>
