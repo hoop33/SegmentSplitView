@@ -6,12 +6,12 @@
          point="org.eclipse.ui.views">
       <category
             name="Grailbox"
-            id="SegmentSplitView">
+            id="grailbox">
       </category>
       <view
-            name="Segment Split View"
+            name="X12 Segment Split View"
             icon="icons/x12.png"
-            category="SegmentSplitView"
+            category="grailbox"
             class="com.grailbox.eclipse.segmentsplitview.views.SegmentSplitView"
             id="com.grailbox.eclipse.segmentsplitview.views.SegmentSplitView">
       </view>

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: SegmentSplitView
-Bundle-SymbolicName: SegmentSplitView; singleton:=true
+Bundle-Name: X12 Segment Split View
+Bundle-SymbolicName: com.grailbox.eclipse.segmentsplitview;singleton:=true
 Bundle-Version: 1.0.0.1
 Bundle-Activator: com.grailbox.eclipse.segmentsplitview.Activator
 Bundle-Vendor: Grailbox
