@@ -1,2 +1,8 @@
 SegmentSplitView is an Eclipse plugin that splits an X12 segment into its elements.
 
+To install, add an Eclipse update site that points to http://grailbox.com/eclipse and
+walk through a normal installation.
+
+After you add the view (called X12 Segment Split View), copy any X12 segment to
+the clipboard. The segment you copy will appear in the view, both in its original
+form and as a parsed string in a table, with indices.
